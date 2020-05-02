@@ -1,0 +1,447 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,a{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background: #fff;
+    font-family: 'Open Sans' 'sans-serif';
+    font-weight: 400;
+    font-size: 14px;
+    color: #8a8b8d;
+}
+/* header */
+header{
+    width: 100%;
+    background: url(../images/header_bg.jpg) 50% 50% / cover no-repeat;
+    /* position: relative; */
+}
+
+.bg{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+/* nav */
+.navbar{
+    padding: 30px 35px;
+}
+
+.navbar-brand{
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar-toggler{
+    background: #fff;
+}
+
+.orange{
+    color: #fa7c30;
+}
+
+.navbar-brand:hover{
+    color: #fff;
+}
+
+.nav-link{
+    font-weight: 700;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+}
+
+.nav-link:hover{
+    color: rgb(255, 255, 255, 1);
+}
+
+.navbar-link{
+    font-weight: 700;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+    padding: 13px 16px;
+    border: 2px solid #fff;
+}
+
+.navbar-link:hover{
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+
+/* header content */
+h1{
+    font-weight: 700;
+    font-size: 70px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 170px 0 30px;
+}
+
+header .text{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.btn-warning{
+    text-transform: uppercase;
+    color: #fff;
+    background: #fa7c30;
+    padding: 12px 28px;
+    margin: 70px auto 400px;
+    border-radius: 0;
+    border: none;
+    font-weight: 700;
+    letter-spacing: 0.07em;
+}
+
+.btn-warning:hover{
+    background: #ff721b;
+    color: #fff;
+}
+
+/* .blank */
+.blank{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-40%);
+}
+
+.blank-right{
+    margin:0 -30px;
+    height: 520px;
+}
+
+.blank .image{
+    height: 520px;
+}
+
+.blank .image img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.blank_title{
+    font-weight: 700;
+    font-size: 26px;
+    color: #000;
+    margin: 70px auto 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.subtitle{
+    font-weight: 700;
+    line-height: 2rem;
+    color: #000;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.blank .subtitle{
+    text-align: center;
+}
+
+form{
+    margin: 30px 2em;
+    text-align: center;
+}
+
+input{
+    width: 25%;
+    margin-right: 15px;
+    padding: 15px 0;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+input:focus{
+    outline: none;
+}
+
+.blank .btn{
+    margin: auto;
+}
+
+/* .welcome */
+.welcome{
+    background: #f1f4f6;
+    padding: 570px 0 100px;
+}
+
+.welcome .text_bold{
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 30px;
+    width: 85%;
+}
+
+.welcome .text{
+    width: 85%;
+}
+
+.welcome .btn-warning{
+    margin: 60px 0 360px;
+}
+
+.hero{
+    position: absolute;
+    right: -20%;
+    top: -20%;
+}
+
+/* .fitness */
+.fitness{
+    padding: 80px 0;
+}
+
+.fitness .text{
+    margin-bottom: 50px;
+}
+
+.fitness-card{
+    background: #f1f4f6;
+}
+
+.fitness-card__image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.fitness-card__image img{
+    width: 100%;
+    height: 100%;
+}
+
+.fitness-card__bottom{
+    height: 300px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.fitness-card .blank_title{
+    margin: 0;
+}
+
+.fitness-card__text{
+    color: #161418;
+    font-size: 16px;
+}
+
+.fitness-card__bottom .btn-warning{
+    margin: 0;
+}
+
+/* .personal */
+.personal{
+    background: url(../images/personal_bg.jpg) no-repeat center center / cover;
+}
+
+.personal .subtitle{
+    color: #fff;
+    margin: 195px 0 40px;
+}
+
+.personal-title{
+    font-weight: 700;
+    font-size: 70px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.personal .btn-warning{
+    margin: 50px 0 185px;
+}
+
+/* .trainers */
+
+.trainers{
+    padding: 50px;
+    background: #f1f4f6;
+}
+
+.card-image{
+    overflow: hidden;
+}
+
+.card{
+    border: none;
+    border-radius: 0;
+    background: #f1f4f6;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.card-body .blank_title{
+    margin: 41px 0 13px;
+}
+
+.suptext{
+    color: #fa7c30;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.card-body .fitness-card__text{
+    margin: 30px 0 0;
+    line-height: 2rem;
+}
+
+/* days */
+.days-left{
+    background: url(../images/days1.jpg) no-repeat center center / cover;
+    width: 50%;
+    text-align: center;
+}
+
+.days-left:last-child{
+    background: url(../images/days2.jpg) no-repeat center center / cover;
+}
+
+.days .bg{
+    padding: 130px 0;
+}
+
+.days-left__text{
+    text-transform: uppercase; color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.days-left__title{
+    font-size: 46px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.days .btn-warning{
+    margin: 0;
+}
+
+/* footer */
+footer{
+    background: #161418;
+    padding: 75px 0 20px;
+}
+
+.follow-text{
+    font-size: 15px;
+    color: #fff;
+}
+
+.follow{
+    margin: 50px 0 40px;
+}
+
+.follow-icon{
+    margin-left: 15px;
+}
+
+.follow-icon a{
+    color: #fff;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+
+.follow-icon .fa{
+    color: #fff;
+    transition: .5s;
+}
+
+.follow-icon .fa:hover{
+    color: #fa7c30;
+}
+
+footer form{
+    width: 90%;
+    margin-left: 0;
+}
+
+.footer-email{
+    width: 55%;
+    padding: 10px 12px;
+}
+
+footer .btn-danger{
+    padding: 10px 12px;
+    margin: 0 0 0 -5%;
+    width: 30%;
+    background: #fa7c30;
+    border-radius: 0;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px; 
+}
+
+footer .btn-danger:hover,
+footer .btn-danger:focus,
+footer .btn-danger:active{
+    background: #fa7c30;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.blog{
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.footer-cont{
+    margin-bottom: 30px;
+}
+
+.footer-cont__text{
+    line-height: 2rem;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.foto{
+    object-fit: cover;
+    width: 32%;
+    margin: 0 1px 1px 0;
+}
+
+.foto img{
+    width: 100%;
+    height: 100%;
+}
+
+.insta-text{
+    color: #fff;
+    margin-top: 20px;
+}
+
+.copy{
+    color: #fa7c30;
+    text-align: center;
+    margin-top: 20px;
+}

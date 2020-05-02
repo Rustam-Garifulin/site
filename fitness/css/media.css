@@ -1,0 +1,254 @@
+
+
+@media (max-width: 1199.98px){
+    /* .blank .blank .blank .blank .blank */
+    .blank .image{
+        display: none;
+    } 
+    /* .welcome .welcome .welcome .welcome */
+    .welcome{
+        padding: 500px 0 100px;
+    }
+    .hero{
+        position: static;
+        object-fit: cover;
+        margin-top: -20%;
+    }
+    .hero img{
+        width: 100%;
+        height: 100%;
+    }
+    .welcome .btn-warning{
+        margin: 60px 0 100px;
+    }
+}
+
+@media (max-width: 991.98px){
+    .navbar-nav{
+        text-align: center;
+    }
+    .nav-item:last-child{
+        margin-top: 20px;
+    }
+    h1{
+        text-align: center;
+        margin: 50px 0 30px;
+    }
+    /* header header header header header */
+    header .text{
+        text-align: center;
+    }
+    header .btn-warning{
+        display: block;
+        margin: 70px auto 250px;
+    }
+    .subtitle{
+        font-size: 30px;
+    }
+    /* .welcome.welcome .welcome .welcome */
+    .welcome .btn-warning{
+        margin: 60px 0 30px;
+    }
+    /* fitness fitness fitnessfitness */
+    .fitness-card{
+        margin-bottom: 30px;
+    }
+    .fitness .row{
+        justify-content: center;
+    }
+    .fitness .col-xl-12{
+        text-align: center;
+    }
+    .fitness-card__bottom{
+        text-align: center;
+        align-items: center;
+        padding: 0 10px;
+    }
+    .subtitle{
+        text-align: center;
+    }
+    /* .personal .personal .personal .personal */
+    .personal .subtitle {
+        margin: 100px 0 40px;
+    }
+    .personal .btn-warning {
+        margin: 50px 0 100px;
+    }
+    /* .trainers .trainers .trainers */
+    .trainers .col-xl-12{
+        text-align: center;
+    }
+    .trainers .row{
+        justify-content: center;
+    }
+    /* .days .days .days .days .days .days */
+    .days-left__title {
+        font-size: 45px;
+    }
+    /* footer footer footer footer footer */
+    footer .row{
+        justify-content: center;
+    }
+    footer .row .col-md-12{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .follow-icon .fa{
+        font-size: 30px
+    }
+    .follow-text {
+        font-size: 20px;
+    }
+    footer form{
+        margin: 0 auto 30px;
+    }
+    
+    .footer-email{
+        width: 70%;
+        padding: 10px 12px; 
+    }
+    
+    footer .btn-danger{
+        padding: 10px 12px;
+        margin: 0 0 0 -5%;
+        width: 30%; 
+    }
+    .blog{
+        text-align: center;
+    }
+    .insta-text{
+        text-align: center;
+    }
+}
+
+@media (max-width: 767.98px){
+    h1{
+        font-size: 50px;
+    }
+    
+    /* .blank.blank.blank.blank.blank */
+    .blank .subtitle{
+        margin-bottom: 0;
+    }
+    .blank input{
+        width: 80%;
+        padding: 10px 0;
+    }
+    .blank form{
+        margin: 2rem 1.5rem;
+    }
+    .blank_title{
+        margin: 15px auto;
+    }
+    .blank .subtitle{
+        font-size: 30px
+    }
+    /* .welcome.welcome .welcome .welcome */
+    .welcome .subtitle{
+        text-align: center;
+    }
+    .welcome .text_bold{
+        text-align: center;
+        margin: 0 auto 30px;
+    }
+    .welcome .text{
+        text-align: center;
+        margin: auto;
+    }
+    .btn-warning{
+        display: block;
+    }
+    .hero{
+        margin-top: 0;
+    }
+    .welcome .btn-warning{
+        margin: 60px auto 30px;
+    }
+    .welcome {
+        padding: 400px 0 100px;
+    }
+    /* fitness fitness fitnessfitness */
+    
+    
+    /* .personal .personal .personal .personal */
+    .personal-title {
+        font-size: 40px;
+        text-align: center;
+    }
+    .personal .subtitle {
+        margin: 50px 0 40px;
+    }
+    .personal .btn-warning {
+        margin: 50px 0;
+    }
+    /* .trainers .trainers .trainers */
+    .card-body .blank_title {
+        margin: 10px 0;
+    }
+    .card-body .fitness-card__text {
+        margin: 15px 0 0;
+        line-height: 1.5rem;
+    }
+    /* .days .days .days .days .days */
+    .days{
+        flex-direction: column;
+    }
+    .days-left{
+        width: 100%;
+    }
+    .days-left__title {
+        margin-bottom: 25px;
+    }
+    .days .bg{
+        padding: 50px 0;
+    }
+    .days .btn-warning {
+        margin: auto;
+    }
+    /* footer footer footer footer footer */
+    .footer-cont{
+        justify-content: space-around !important;
+    }
+    footer {
+        padding: 25px 0 20px;
+    }
+
+}
+
+@media (max-width: 575.98px){
+    /* fitness fitness fitnessfitness */
+    .fitness .col-sm-10{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .fitness-card{
+        width: 80%;
+    }
+    /* .trainers .trainers .trainers */
+    .trainers .card{
+        margin: 50px auto 0;
+        width: 80%;
+    }
+    /* footer footer footer footer */
+    .follow-icon .fa{
+        font-size: 14px
+    }
+    .follow-text {
+        font-size: 16px;
+    }
+    footer .btn-danger{
+        font-size: 11px;
+         margin: 0 0 0 -9%;
+    }
+    .footer-email{
+        width: 55%;
+        padding: 10px 30px 10px 12px;
+    }
+    .instagram-foto{
+        width: 80%;
+        margin: auto;
+    }
+}
